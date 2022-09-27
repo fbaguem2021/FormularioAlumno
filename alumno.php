@@ -40,14 +40,17 @@
                             </select>
                         </div>
                     </div>
-                    <div>
-                        <div class="form-check form-check-inline"> <!-- form-check-inline -->
-                            <input type="radio" class="form-check-input" name="rbTurno" id="rbMañana" checked>
-                            <label for="rbMañana" class="form-check-label">Mañana</label>
-                        </div>
-                        <div class="form-check form-check-inline"><!-- form-check-inline -->
-                            <input type="radio" class="form-check-input" name="rbTurno" id="rbTarde">
-                            <label for="rbTarde" class="form-check-label">Tarde</label>
+                    <div class="form-group row">
+                        <label for="rbTurno" class="col-sm-2 col-form-label">Turno</label>
+                        <div class="col-sm-10">
+                            <div class="form-check form-check-inline"> <!-- form-check-inline -->
+                                <input type="radio" class="form-check-input" name="rbTurno" id="rbMañana" checked>
+                                <label for="rbMañana" class="form-check-label">Mañana</label>
+                            </div>
+                            <div class="form-check form-check-inline"><!-- form-check-inline -->
+                                <input type="radio" class="form-check-input" name="rbTurno" id="rbTarde">
+                                <label for="rbTarde" class="form-check-label">Tarde</label>
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -64,12 +67,7 @@
                             <label for="chxAngles" class="form-check-label">Angles</label>
                         </div>
                     </div>
-
-
                     
-                            
-                    
-
                     <label for="txtDescription">Descripción: </label>
                     <textarea name="txtDescription" id="txtDescription" cols="30" rows="10"></textarea>
                     <br>
